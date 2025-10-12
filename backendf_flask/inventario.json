@@ -1,0 +1,20 @@
+[
+    {
+        "nombre": "Pepsi",
+        "categoria": "Bebida",
+        "descripcion": "25",
+        "precio": 52.0,
+        "cantidad": 12,
+        "fecha_vencimiento": "2000-02-04",
+        "id": 1
+    },
+    {
+        "nombre": "Cocacola",
+        "categoria": "Bebida",
+        "descripcion": "600 ml",
+        "precio": 7.5,
+        "cantidad": 150,
+        "fecha_vencimiento": "2026-05-04",
+        "id": 2
+    }
+]
