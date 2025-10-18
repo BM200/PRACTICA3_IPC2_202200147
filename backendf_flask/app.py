@@ -6,7 +6,7 @@ import os
 # Inicializar la aplicación Flask
 app = Flask(__name__)
 
-# Ruta al archivo JSON que funcionará como nuestra base de datos
+# Ruta al archivo JSON me sirve para base datos. 
 INVENTARIO_FILE = 'inventario.json'
 
 # --- Funciones Auxiliares para manejar el JSON ---
@@ -26,7 +26,7 @@ def escribir_inventario(data):
     with open(INVENTARIO_FILE, 'w') as f:
         json.dump(data, f, indent=4)
 
-# --- Endpoints de la API REST ---
+# --- puntos de acceso o de union  de la API REST ---
 
 # Endpoint para OBTENER todos los productos (GET /productos)
 @app.route('/productos', methods=['GET'])
